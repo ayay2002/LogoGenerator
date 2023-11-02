@@ -1,5 +1,6 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
+const complete = require('./lib/generate')
 
 const shapes = ['Square', 'Circle', 'Triangle']
 
@@ -31,7 +32,7 @@ const questions =
 function init(){
     inquirer.prompt(questions)
     .then(answers => {
-        fs.writeFile('logo.svg', (answers), (err) =>
+        fs.writeFile('logo.svg', complete(answers), (err) =>
         err ? console.log(err) : console.log('Successfully created logo.svg!')
         );
     })

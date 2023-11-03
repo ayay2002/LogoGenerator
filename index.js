@@ -6,6 +6,7 @@ const shapes = ['Square', 'Circle', 'Triangle']
 
 const questions =
 [
+    // all my questions that promt the user in the terminal
     {
         type: 'input',
         name: 'characters',
@@ -28,7 +29,7 @@ const questions =
         message: 'What color would you like your shape?'
     }
 ]
-
+// function to bring everythting togeather and create the file with their logo
 function init(){
     inquirer.prompt(questions)
     .then(answers => {

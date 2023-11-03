@@ -5,6 +5,8 @@ This project creates the user a logo image in a file by asking a few simple ques
 
 ![Click to download and view Demo Video](./Demo.zip)
 
+![Example logo](./examples/Ex-3logo.svg)
+
 <h2>Table Of Contents</h2>
 
 <a href='#install'>Install</a>

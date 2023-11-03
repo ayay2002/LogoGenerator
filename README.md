@@ -3,7 +3,7 @@
 <h2>Description</h2>
 This project creates the user a logo image in a file by asking a few simple questions in the terminal.
 
-![image](./Screenshot%202023-11-02%20183106.png)
+![demo video](./Demo.mp4)
 
 <h2>Table Of Contents</h2>
 
